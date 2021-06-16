@@ -28,6 +28,8 @@ jobs:
         with:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '11'
-      - run: |
-          javac ./src/Main.java
+          
+      - working-directory: ./src
+        run: |
+          javac Main.java
           java -cp . Main
