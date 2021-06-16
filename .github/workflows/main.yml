@@ -30,4 +30,4 @@ jobs:
           java-version: '11'
       - run: |
           javac ./src/Main.java
-          java Main
+          java -cp . Main
