@@ -15,7 +15,7 @@ public class Sila {
         String name = "Максим";
         String patronymic = "Григорьевич";
         String Bday = "18/06/2000";
-        String result = "ФИО: Человеков М.Г.\n" +
+        String result = "FIO: Человеков М.Г.\n" +
                 "Пол: Мужской\n" +
                 "Полных лет: 21";
         String mof;
@@ -38,7 +38,7 @@ public class Sila {
         char inN, inP;
         inN = name.charAt(0);
         inP = patronymic.charAt(0);
-        String end = "ФИО: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
+        String end = "FIO: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
         assertEquals(result, end);
     }
 
@@ -48,7 +48,7 @@ public class Sila {
         String name = "Ольга";
         String patronymic = "Евгеньевна";
         String Bday = "27/10/2005";
-        String result = "ФИО: Чичикова О.Е.\n" +
+        String result = "FIO: Чичикова О.Е.\n" +
                 "Пол: Женский\n" +
                 "Полных лет: 15";
         String mof;
@@ -71,7 +71,7 @@ public class Sila {
         char inN, inP;
         inN = name.charAt(0);
         inP = patronymic.charAt(0);
-        String end = "ФИО: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
+        String end = "FIO: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
         assertEquals(result, end);
     }
 
@@ -81,7 +81,7 @@ public class Sila {
         String name = "Ирина";
         String patronymic = "Максимовна";
         String Bday = "01/01/2020";
-        String result = "ФИО: Соломонова И.М.\n" +
+        String result = "FIO: Соломонова И.М.\n" +
                 "Пол: Женский\n" +
                 "Полных лет: 1";
         String mof;
@@ -104,7 +104,7 @@ public class Sila {
         char inN, inP;
         inN = name.charAt(0);
         inP = patronymic.charAt(0);
-        String end = "ФИО: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
+        String end = "FIO: " + lastname+ " " + inN+"."+inP+".\n"+"Пол: "+mof+"\n"+"Полных лет: "+age;
         assertEquals(result, end);
     }
 }
