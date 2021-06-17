@@ -78,10 +78,10 @@ public class Sila {
     @Test
     public void test3() {
         String lastname = "Соломонова";
-        String name = "Ирина";
+        String name = "Марина";
         String patronymic = "Максимовна";
         String Bday = "01/01/2020";
-        String result = "FIO: Соломонова И.М.\n" +
+        String result = "FIO: Соломонова М.М.\n" +
                 "Пол: Женский\n" +
                 "Полных лет: 1";
         String mof;
