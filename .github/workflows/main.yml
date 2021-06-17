@@ -32,4 +32,4 @@ jobs:
       - working-directory: ./src
         run: |
           javac Main.java
-          java -cp . Main
+          java -cp . Main "Иванов" "Иван" "Иванович" "01/10/1990"
