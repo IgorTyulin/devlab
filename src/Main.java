@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.print("Введите ФИО и дату рождения(**/**/****): ");
+        System.out.print("Full name and birth day(**/**/****): ");
         String lastname = args[0];
         String name = args[1];
         String patronymic = args[2];
@@ -33,6 +33,6 @@ public class Main {
         inN = name.charAt(0);
         inP = patronymic.charAt(0);
 
-        System.out.printf("ФИО: %s %c.%c.\nПол: %s\nПолных лет: %d", lastname, inN, inP, mof, age);
+        System.out.printf("FULL NAME: %s %c.%c.\nSEX: %s\nAGE: %d", lastname, inN, inP, mof, age);
     }
 }
