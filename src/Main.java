@@ -1,4 +1,4 @@
-package main.java;// Copyright 2021 Tyulin Igor
+// Copyright 2021 Tyulin Igor
 
 import java.text.ParseException;
 import java.util.Date;
