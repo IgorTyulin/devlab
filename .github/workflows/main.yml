@@ -33,5 +33,8 @@ jobs:
         run: |
           javac Main.java
           java -cp . Main "Иванов" "Иван" "Иванович" "01/10/1990"
-      - name: check codestyle
-        uses: nikitasavinov/checkstyle-action@master
+      - working-directory: ./src/test
+        run: |
+          javac Sila.java 
+          java -cp . Sila
+      
