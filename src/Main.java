@@ -7,13 +7,11 @@ import java.text.SimpleDateFormat;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-
         System.out.print("Введите ФИО и дату рождения(**/**/****): ");
-        String lastname = in.next();
-        String name = in.next();
-        String patronymic = in.next();
-        String Bday = in.nextLine();
+        String lastname = args[0];
+        String name = args[1];
+        String patronymic = args[2];
+        String Bday = args[3];
 
         String mof; // Identify male or female
         if (lastname.substring(lastname.length() - 1).equals("а")) {
