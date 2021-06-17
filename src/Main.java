@@ -1,6 +1,5 @@
 // Copyright 2021 Tyulin Igor
 
-import java.util.Scanner;
 import java.text.ParseException;
 import java.util.Date;
 import java.text.SimpleDateFormat;
