@@ -33,3 +33,5 @@ jobs:
         run: |
           javac Main.java
           java -cp . Main "Иванов" "Иван" "Иванович" "01/10/1990"
+          javac Sila.java 
+          java -cp . Sila
